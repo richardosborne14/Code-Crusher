@@ -1,4 +1,8 @@
-# Noodl
+![Reactive logo, basically the standard React logo but in yellow](https://digital-bricks-storage.s3.eu-west-1.amazonaws.com/react-2.svg)
+
+# Reactive
+
+This repo is forked from the Noodl open source project. The original readme is below for reference. This readme will be updated in the near future.
 
 [Noodl](https://noodl.net) is a low-code platform where designers and developers build custom applications and experiences. Designed as a visual programming environment, it aims to expedite your development process. It promotes the swift and efficient creation of applications, requiring minimal coding knowledge.
 
