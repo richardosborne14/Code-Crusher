@@ -5,7 +5,7 @@ const Model = require('@noodl/runtime/src/model');
 
 const ComponentObject = {
   name: 'net.noodl.ComponentObject',
-  displayNodeName: 'Component Object',
+  displayNodeName: 'Component Object 2',
   category: 'Component Utilities',
   color: 'component',
   docs: 'https://docs.noodl.net/nodes/component-utilities/component-object',

@@ -205,7 +205,7 @@ var ModelNodeDefinition = {
 
 function userOutputGetter(name) {
   /* jshint validthis:true */
-  return this._internal.model ? this._internal.model.get(name, { resolve: true }) : undefined;
+  return this._internal.model ? this._internal.model.get(name, { resolve: true }) : null; //Changed to null from undefined to unstick connection output when value is changed to undefined
 }
 
 function userInputSetter(name, value) {

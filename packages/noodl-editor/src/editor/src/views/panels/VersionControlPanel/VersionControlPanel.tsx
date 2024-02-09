@@ -232,10 +232,15 @@ export function VersionControlPanel() {
   }, [isGitProject]);
 
   async function setupGit() {
-    const gitClient = new Git(mergeProject);
-    await gitClient.initNewRepo(ProjectModel.instance._retainedProjectDirectory);
-    await gitClient.commit('Initial commit');
-    setGit(gitClient);
+    try {
+      const gitClient = new Git(mergeProject);
+      await gitClient.initNewRepo(ProjectModel.instance._retainedProjectDirectory);
+      await gitClient.commit('Initial commit');
+      setGit(gitClient);
+    } catch (error) {
+      console.error("Failed to initialize git repository:", error);
+      // Added catch to try to debug button on Linux
+    }
   }
 
   if (git === null && !isGitProject) {

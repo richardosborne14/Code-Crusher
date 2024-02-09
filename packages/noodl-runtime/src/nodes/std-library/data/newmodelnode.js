@@ -7,7 +7,7 @@ var NewModelNodeDefinition = {
   node: {
     name: 'NewModel',
     docs: 'https://docs.noodl.net/nodes/data/object/create-new-object',
-    displayNodeName: 'Create New Object',
+    displayNodeName: 'Create New Object 2',
     inputs: {
       new: {
         displayName: 'Do',
